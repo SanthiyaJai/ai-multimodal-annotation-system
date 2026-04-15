@@ -1,0 +1,4 @@
+id,prompt,response_a,response_b,best_response,reason
+1,Explain refund policy,Refund takes 5-7 days,Refund depends on rules,A,Clear answer
+2,How to reset password?,Click forgot password,Go settings,A,More precise
+3,Delivery time?,3-5 days,Delivery varies,A,More structured

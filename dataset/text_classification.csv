@@ -1,0 +1,9 @@
+id,text,intent,sentiment,category
+1,I want to track my order,REQUEST,NEUTRAL,DELIVERY
+2,Why is my bill so high?,COMPLAINT,NEGATIVE,BILLING
+3,Please cancel my subscription,REQUEST,NEUTRAL,ACCOUNT
+4,Your service is amazing,FEEDBACK,POSITIVE,GENERAL
+5,Order status is not updating,COMPLAINT,NEGATIVE,DELIVERY
+6,Can you help me reset my password?,REQUEST,NEUTRAL,ACCOUNT
+7,Delivery was very fast,FEEDBACK,POSITIVE,DELIVERY
+8,I want refund immediately,COMPLAINT,NEGATIVE,BILLING

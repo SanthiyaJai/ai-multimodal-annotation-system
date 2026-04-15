@@ -1,0 +1,5 @@
+text,label,category
+"I want to track my order",REQUEST,DELIVERY
+"Why is my bill so high?",COMPLAINT,BILLING
+"Your package has been shipped",INFORMATION,DELIVERY
+"please tell me order statuss",REQUEST,DELIVERY

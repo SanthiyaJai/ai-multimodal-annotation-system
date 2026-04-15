@@ -1,0 +1,17 @@
+# Labeling Schema
+
+Intent:
+- REQUEST
+- COMPLAINT
+- INFORMATION
+
+Sentiment:
+- POSITIVE
+- NEGATIVE
+- NEUTRAL
+
+Category:
+- BILLING
+- DELIVERY
+- ACCOUNT
+- GENERAL

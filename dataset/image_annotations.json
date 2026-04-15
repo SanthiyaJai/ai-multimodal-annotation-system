@@ -1,0 +1,19 @@
+[
+  {
+    "image_id": "img_001",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {"label": "car", "bbox": [120,200,320,420]},
+      {"label": "person", "bbox": [50,100,180,400]}
+    ]
+  },
+  {
+    "image_id": "img_002",
+    "width": 800,
+    "height": 600,
+    "objects": [
+      {"label": "bicycle", "bbox": [200,250,500,550]}
+    ]
+  }
+]

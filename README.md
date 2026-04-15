@@ -1,20 +1,20 @@
 # Multi-Modal AI Data Annotation System
 
-# Overview
-This project simulates a real-world **AI data annotation and dataset preparation pipeline** used in machine learning workflows.
+## Overview
+This project simulates a real-world AI data annotation pipeline used for machine learning dataset preparation.
 
 It demonstrates how raw data is transformed into structured, labeled, and evaluation-ready datasets through:
 - Text classification
-- Image labeling (simulated)
+- Image labeling (simulated in JSON format)
 - AI response comparison
 - Data cleaning and normalization
 - Quality scoring and evaluation
 
-This project reflects workflows used in AI training data platforms and machine learning pipeline preparation.
+The project reflects standard workflows used in AI training data operations.
 
 ---
 
-# 📁 Repository Structure
+## Repository Structure
 
 dataset/
 - text_classification.csv
@@ -35,34 +35,30 @@ outputs/
 
 ---
 
-# 🧠 Modules Overview
+## 1. Text Classification Module
 
-## 1️⃣ Text Classification Module
-This module classifies user text into structured labels for AI training datasets.
+This module classifies text into structured labels for AI training datasets.
 
-### Labels Used:
+Labels:
 - Intent: REQUEST / COMPLAINT / FEEDBACK
 - Sentiment: POSITIVE / NEGATIVE / NEUTRAL
 - Category: BILLING / DELIVERY / ACCOUNT / GENERAL
 
-### Example:
-Input:
-"I want to track my order"
-
-Output:
-REQUEST | NEUTRAL | DELIVERY
+Example:
+Input: "I want to track my order"  
+Output: REQUEST | NEUTRAL | DELIVERY
 
 ---
 
-## 2️⃣ Image Labeling Module (Simulated)
-This module simulates object detection annotation using bounding box structures.
+## 2. Image Labeling Module (Simulated)
 
-### Format:
-Each object is labeled with:
-- Object class (e.g., car, person, bicycle)
+This module represents object detection annotation using structured JSON format.
+
+Each object includes:
+- Label (object type)
 - Bounding box coordinates [x1, y1, x2, y2]
 
-### Example:
+Example:
 {
   "image_id": "img_001",
   "objects": [
@@ -75,52 +71,58 @@ Each object is labeled with:
 
 ---
 
-## 3️⃣ AI Response Comparison Module
-This module compares multiple AI-generated responses and selects the best output based on:
+## 3. AI Response Comparison Module
 
+This module compares multiple AI-generated responses and selects the best output based on evaluation criteria.
+
+Criteria:
 - Clarity
 - Accuracy
 - Completeness
 - Readability
 
-### Example:
+Example:
 Prompt: "Explain refund policy"
 
-Response A: Clear and structured answer  
+Response A: Clear and structured explanation  
 Response B: Long and unclear explanation  
 
 Output:
 Better Response: A
 
-Reason: More concise and understandable
+Reason: More concise and easier to understand
 
 ---
 
-## 4️⃣ Data Cleaning Module
+## 4. Data Cleaning Module
+
 This module handles noisy and unstructured text data.
 
-### Tasks:
+Tasks performed:
 - Fix spelling errors
-- Normalize text format
+- Normalize text formatting
 - Remove duplicates
 - Standardize structure
 
-### Example:
+Example:
 Input: "i wnt refund!!!"  
 Output: "I want refund"
 
 ---
 
-## 5️⃣ Quality Scoring System
-This module evaluates annotation quality based on weighted scoring.
+## 5. Quality Scoring System
 
-### Scoring Criteria:
+This module evaluates annotation quality using weighted scoring.
+
+Scoring Criteria:
 - Accuracy: 40%
 - Consistency: 30%
 - Clarity: 20%
 - Rule adherence: 10%
 
-### Example:
+Final Score = Weighted evaluation of all criteria
+
+Example:
 Accuracy: 5/5  
 Consistency: 4/5  
 Clarity: 5/5  
@@ -128,27 +130,27 @@ Final Score: 4.7/5
 
 ---
 
-# 📊 Sample Outputs
+## Sample Outputs
 
-## ✔ Text Classification Output
+Text Classification Output:
 "I want refund immediately"
 → COMPLAINT | NEGATIVE | BILLING
 
-## ✔ Cleaned Data Output
+Cleaned Data Output:
 "delvry lateee" → "Delivery is late"
 
-## ✔ AI Evaluation Output
+AI Evaluation Output:
 Best Response: A  
-Reason: More structured and accurate
+Reason: More structured, clear, and accurate
 
 ---
 
-# 🛠️ Skills Demonstrated
+## Skills Demonstrated
 
 - Data Annotation & Labeling
 - Text Classification
-- Image Annotation (Simulated)
 - Dataset Structuring
+- AI Training Data Preparation
 - Data Cleaning & Normalization
 - AI Output Evaluation
 - Quality Scoring Systems
@@ -157,25 +159,20 @@ Reason: More structured and accurate
 
 ---
 
-# 🎯 Purpose of This Project
+## Purpose of This Project
 
-This project demonstrates the ability to prepare structured datasets for AI/ML models by simulating real-world annotation workflows used in:
+This project demonstrates the ability to prepare structured datasets for AI/ML systems by simulating real-world annotation workflows used in:
 
-- AI training data companies
-- Machine learning pipelines
-- Data labeling platforms (Labelbox, CVAT, Doccano)
-- NLP and computer vision dataset preparation
+- AI training data pipelines
+- Machine learning dataset preparation
+- Data labeling operations
+- NLP and computer vision preprocessing tasks
 
 ---
 
-# 🚀 Key Outcomes
+## Key Outcomes
 
 - Built structured labeled datasets
-- Simulated multi-modal AI annotation workflow
-- Created evaluation and scoring system for dataset quality
-- Demonstrated understanding of AI training data preparation
-
----
-
-# 📌 Note
-This project is designed for educational and portfolio purposes to demonstrate AI data annotation and dataset preparation skills.
+- Simulated AI annotation workflows
+- Created evaluation and scoring system
+- Demonstrated dataset preparation skills for AI training

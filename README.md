@@ -1,6 +1,6 @@
-# 🧠 Multi-Modal AI Data Annotation System
+# Multi-Modal AI Data Annotation System
 
-## 📌 Overview
+# Overview
 This project simulates a real-world **AI data annotation and dataset preparation pipeline** used in machine learning workflows.
 
 It demonstrates how raw data is transformed into structured, labeled, and evaluation-ready datasets through:
@@ -174,14 +174,6 @@ This project demonstrates the ability to prepare structured datasets for AI/ML m
 - Simulated multi-modal AI annotation workflow
 - Created evaluation and scoring system for dataset quality
 - Demonstrated understanding of AI training data preparation
-
----
-
-# 🔗 Links
-
-GitHub: https://github.com/yourusername  
-Portfolio: https://yourusername.github.io/ai-portfolio  
-LinkedIn: https://linkedin.com/in/yourprofile  
 
 ---
 

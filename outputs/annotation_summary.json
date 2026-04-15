@@ -1,0 +1,9 @@
+{
+  "total_records": 8,
+  "intent_distribution": {
+    "REQUEST": 4,
+    "COMPLAINT": 3,
+    "FEEDBACK": 1
+  },
+  "quality_score": 4.6
+}
